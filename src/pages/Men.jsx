@@ -3,9 +3,10 @@ import styled from 'styled-components';
 
 const ProductListContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 0 20px; /* Add padding on the left and right */
+  
 `;
 
 const Card = styled.div`
@@ -73,7 +74,21 @@ const Men = () => {
 
   return (
     <div>
-      <h1>Product List</h1>
+      <h1>Men's Collection</h1>
+      <h3>Wide Range of T-Shirts</h3>
+      <ProductListContainer>
+        {Array.isArray(products) &&
+          products.map((product, index) => (
+            <Card key={index}>
+              <ProductImage src={product.imageurl} alt={product.productname} />
+              <ProductTitle>{product.productname}</ProductTitle>
+              <ProductPrice>${product.price}</ProductPrice>
+              <ProductRating>Rating: {product.rating}</ProductRating>
+              <AddToCartButton>Add to Cart</AddToCartButton>
+            </Card>
+          ))}
+      </ProductListContainer>
+      <h3>Wide Range of Bottoms</h3>
       <ProductListContainer>
         {Array.isArray(products) &&
           products.map((product, index) => (

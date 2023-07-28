@@ -1,12 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
+const CardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 330px; /* Adjust this value to control the number of cards per row */
+  margin: 0 auto;
+`;
+
 const Card = styled.div`
   border: 1px solid red;
   border-radius: 8px;
   padding: 16px;
   margin: 10px;
-  max-width: 300px;
+  max-width: 100px;
+  max-width: calc((100% - 40px) / 3);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;

@@ -1,10 +1,10 @@
 import React from 'react'
-import ProductList from '../component/ProductList'
+import ProductSlider from '../component/ProductSlider'
 
 const Home = () => {
   return (
     <div>
-        {/* <ProductList/> */}
+        <ProductSlider/>
     </div>
   )
 }

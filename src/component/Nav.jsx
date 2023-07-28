@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
+import { AiOutlineHome, AiOutlineHeart, AiOutlineShoppingCart, AiOutlineSearch, AiOutlineUser } from "react-icons/ai";
+import "../App.css"
 const Container = styled.div`
   height: 60px;
   background-color: black;
@@ -32,10 +33,17 @@ const Nav = () => {
         <NavbarLink ><Link to='/kids' >Kids</Link></NavbarLink>
       </div>
       <div>
-        <NavbarLink><Link to='/' >Home</Link> </NavbarLink>
-        <NavbarLink><Link to='/about' >About</Link> </NavbarLink>
-        <NavbarLink><Link to='/contact' >Contact</Link></NavbarLink>
+        <NavbarLink><Link to='/' ><AiOutlineHome size={30} /></Link> </NavbarLink>
+        <NavbarLink><Link to='/signup' ><AiOutlineUser size={30} /></Link> </NavbarLink>
+        <NavbarLink><Link to='/contact' ><AiOutlineShoppingCart size={30} /></Link></NavbarLink>
       </div>
+      <div className='search'>
+     < AiOutlineSearch size={30} /> 
+     <div>
+      search
+     </div>
+      </div>
+      
     </Container>
   );
 };

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "richakri",
+      "email": "richavashistha0@gmail.com",
+      "password": "richakri",
+      "id": 1
+    },
+    {
+      "username": "richakri",
+      "email": "richavashistha0@gmail.com",
+      "password": "richakri",
+      "id": 2
+    },
+    {
+      "username": "richakri",
+      "email": "richavashistha0@gmail.com",
+      "password": "richakri",
+      "id": 3
+    },
+    {
+      "username": "richakri",
+      "email": "richavashistha0@gmail.com",
+      "password": "richakri",
+      "id": 4
+    },
+    {
+      "username": "abc",
+      "email": "anbalkh@gmail.com",
+      "password": "bbbb",
+      "id": 5
+    }
+  ]
+}
