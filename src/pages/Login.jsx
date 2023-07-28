@@ -49,7 +49,8 @@ const Login = () => {
   }
 
   return (
-    <div>
+    <div className="main-container">
+    <div className="main-box">
       <h1>Login</h1>
       <form onSubmit={handleLogin}>
         <div>
@@ -67,6 +68,7 @@ const Login = () => {
         {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
         <button type="submit">Login</button>
       </form>
+    </div>
     </div>
   );
 };

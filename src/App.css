@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  min-height: 60vh;
+  
 }
 
 .App-logo {
@@ -45,15 +47,78 @@
   width:
 }
 
-.main-box {
+/* .main-box { 
  width:300px;
- min-height: 60vh;
  display:flex;
- justify-content: center;
+ justify-content: flex-start;
  flex-direction: column;
  align-items:cemter;
- text-align:center;
- background-color: green;
+ background-color:whitesmoke;
+ margin:0px auto;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+} */
+.main-box {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Corrected 'cemter' to 'center' */
+  /* background-color: whitesmoke; */
+  margin: 0px auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom:50px;
+  padding: 20px; /* Adding some padding for spacing */
+
+  /* Additional styles to align the input and label horizontally */
+  text-align: left;
+}
+
+.main-box h1 {
+  margin-bottom: 20px; /* Adding some space below the heading */
+}
+
+.main-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-box label {
+  margin-bottom: 5px; /* Adding some space below each label */
+}
+
+.main-box input {
+  width: 100%; /* Filling the available space horizontally */
+  padding: 5px; /* Adding some padding for spacing */
+  margin-bottom: 10px; /* Adding some space below each input */
+  outline:0;
+  border-width:0 0 2px;
+  border-color: black;
+  
+}
+
+.main-box button {
+  width: 100%; /* Filling the available space horizontally */
+  padding: 10px; /* Adding some padding for spacing */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Styling error messages */
+.main-box span {
+  color: red;
+}
+
+
+.main-container{
+  background-color:white;
+  min-height:80vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
 
 }
 
@@ -75,3 +140,5 @@ button hover{
   cursor:pointer;
   background-color: #4262f2;
 }
+
+

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 const ProductListContainer = styled.div`
   display: grid;
@@ -55,6 +57,7 @@ const AddToCartButton = styled.button`
   }
 `;
 
+
 const Men = () => {
   const [products, setProducts] = useState([]);
 
@@ -102,6 +105,7 @@ const Men = () => {
           ))}
       </ProductListContainer>
     </div>
+   
   );
 };
 
