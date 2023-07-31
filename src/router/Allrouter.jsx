@@ -8,6 +8,9 @@ import Men from '../pages/Men';
 import Kids from '../pages/Kids';
 import Signup from '../pages/Signup';
 import Login from '../pages/Login';
+import Cart from '../pages/Cart';
+import Search from '../pages/Search';
+
 
 const Allrouter = () => {
   return (
@@ -22,6 +25,10 @@ const Allrouter = () => {
         <Route path="/kids" element={<Kids />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/search" element={<Search/>} />
+        <Route path="*" element={<h2>Page not found</h2>} />
+        <Route path="/cart" element={<Cart/>} />
+        <Route path="/thankyou" element={<h2>Thank you for shopping with us!</h2>} />
       </Routes>
     </div>
   );

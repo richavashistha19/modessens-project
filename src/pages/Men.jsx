@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 const ProductListContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 20px;
-  padding: 0 20px; /* Add padding on the left and right */
-  
+  overflow-x: auto;
+  padding: 20px;
+  margin: 0 auto;
 `;
 
 const Card = styled.div`
@@ -19,6 +17,9 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 250px; /* Increase the width of each card to 600px */
+  width: 100%; /* Added width for smaller screens */
+  max-width: 300px; /* Set a maximum width for the cards */
 `;
 
 const ProductTitle = styled.h3`
@@ -27,10 +28,15 @@ const ProductTitle = styled.h3`
 
 const ProductImage = styled.img`
   margin-bottom: 8px;
-  object-fit:cover;
-  margin-bottom: 8px;
+  object-fit: cover;
   width: 100%;
   height: 200px;
+`;
+
+const MainContainer = styled.div`
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px; /* Added left-right padding */
 `;
 
 const ProductPrice = styled.p`
@@ -57,7 +63,6 @@ const AddToCartButton = styled.button`
   }
 `;
 
-
 const Men = () => {
   const [products, setProducts] = useState([]);
 
@@ -65,7 +70,6 @@ const Men = () => {
     fetch('http://localhost:3001/Mens')
       .then((response) => response.json())
       .then((data) => {
-        // Check if data.products is an array before setting the state
         if (Array.isArray(data.products)) {
           setProducts(data.products);
         }
@@ -75,37 +79,78 @@ const Men = () => {
       });
   }, []);
 
+  const addToCart = (product) => {
+    // Get existing cart items from local storage or initialize an empty array
+    const existingCartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    
+
+    // Check if the product is already in the cart
+    const existingProduct = existingCartItems.find((item) => item.productname === product.productname);
+
+    if (existingProduct) {
+      // If the product is already in the cart, update its quantity
+      existingProduct.quantity += 1;
+    } else {
+      // If the product is not in the cart, add it with a quantity of 1
+      product.quantity = 1;
+      existingCartItems.push(product);
+    }
+
+    // Save the updated cart items to local storage
+    localStorage.setItem('cartItems', JSON.stringify(existingCartItems));
+
+    window.alert(`Item added successfully!`);
+  };
+
   return (
     <div>
       <h1>Men's Collection</h1>
-      <h3>Wide Range of T-Shirts</h3>
-      <ProductListContainer>
-        {Array.isArray(products) &&
-          products.map((product, index) => (
-            <Card key={index}>
-              <ProductImage src={product.imageurl} alt={product.productname} />
-              <ProductTitle>{product.productname}</ProductTitle>
-              <ProductPrice>${product.price}</ProductPrice>
-              <ProductRating>Rating: {product.rating}</ProductRating>
-              <AddToCartButton>Add to Cart</AddToCartButton>
-            </Card>
-          ))}
-      </ProductListContainer>
-      <h3>Wide Range of Bottoms</h3>
-      <ProductListContainer>
-        {Array.isArray(products) &&
-          products.map((product, index) => (
-            <Card key={index}>
-              <ProductImage src={product.imageurl} alt={product.productname} />
-              <ProductTitle>{product.productname}</ProductTitle>
-              <ProductPrice>${product.price}</ProductPrice>
-              <ProductRating>Rating: {product.rating}</ProductRating>
-              <AddToCartButton>Add to Cart</AddToCartButton>
-            </Card>
-          ))}
-      </ProductListContainer>
+      <h3>Wide Range of Upperwear</h3>
+      <MainContainer>
+        <ProductListContainer>
+          {Array.isArray(products) &&
+            products.slice(0, 7).map((product, index) => (
+              <Card key={index}>
+                <ProductImage src={product.imageurl} alt={product.productname} />
+                <ProductTitle>{product.productname}</ProductTitle>
+                <ProductPrice>${product.price}</ProductPrice>
+                <ProductRating>Rating: {product.rating}</ProductRating>
+                <AddToCartButton onClick={() => addToCart(product) }>Add to Cart</AddToCartButton>
+              </Card>
+            ))}
+        </ProductListContainer>
+      </MainContainer>
+      <h3>Wide Range of Bottomwear</h3>
+      <MainContainer>
+        <ProductListContainer>
+          {Array.isArray(products) &&
+            products.slice(8, 15).map((product, index) => (
+              <Card key={index}>
+                <ProductImage src={product.imageurl} alt={product.productname} />
+                <ProductTitle>{product.productname}</ProductTitle>
+                <ProductPrice>${product.price}</ProductPrice>
+                <ProductRating>Rating: {product.rating}</ProductRating>
+                <AddToCartButton onClick={() => addToCart(product)}>Add to Cart</AddToCartButton>
+              </Card>
+            ))}
+        </ProductListContainer>
+      </MainContainer>
+      <h3>Items on sale</h3>
+      <MainContainer>
+        <ProductListContainer>
+          {Array.isArray(products) &&
+            products.slice(16, 21).map((product, index) => (
+              <Card key={index}>
+                <ProductImage src={product.imageurl} alt={product.productname} />
+                <ProductTitle>{product.productname}</ProductTitle>
+                <ProductPrice>${product.price}</ProductPrice>
+                <ProductRating>Rating: {product.rating}</ProductRating>
+                <AddToCartButton onClick={() => addToCart(product)}>Add to Cart</AddToCartButton>
+              </Card>
+            ))}
+        </ProductListContainer>
+      </MainContainer>
     </div>
-   
   );
 };
 

@@ -8,7 +8,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
+      {/* <div className="footer">
         <div className="container">
           <div className="video">
             <video width='800px' height='350px' autoPlay muted loop>
@@ -75,7 +75,80 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
+      
+      */}
+
+      {/* add footer */}
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li>
+                  <Link to="/">about us</Link>
+                </li>
+                <li>
+                  <Link to="/">our services</Link>
+                </li>
+                <li>
+                  <Link to="/">privacy policy</Link>
+                </li>
+                <li>
+                  <Link to="/">affiliate program</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li>
+                  <Link to="/">FAQ</Link>
+                </li>
+                <li>
+                  <Link to="/">shipping</Link>
+                </li>
+                </ul>
+
+            </div>
+            <div className="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li>
+                  <Link to="/">clothes</Link>
+                </li>
+                <li>
+                  <Link to="/">Accesseries</Link>
+                </li>
+                <li>
+                  <Link to="/">shoes</Link>
+                </li>
+                </ul>
+                </div>
+            <div className="footer-col">
+              <h4>follow us</h4>
+              <div className="social-links">
+                <Link to="/">
+                  <AiOutlineInstagram />
+                </Link>
+                <Link to="/">
+                  <RiFacebookFill />
+                </Link>
+                <Link to="/">
+                  <AiOutlineTwitter />
+                </Link>
+                <Link to="/">
+                  <BsYoutube />
+                </Link>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </footer>
+
     </>
   );
 };

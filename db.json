@@ -2,96 +2,412 @@
   "Mens": {
     "products": [
       {
-        "productname": "Men's T-Shirt 1",
+        "productname": "Men's upperwear 1",
         "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
         "price": 20,
         "rating": 4.5
       },
       {
-        "productname": "Men's T-shirt 2",
+        "productname": "Men's upperwear 2",
         "imageurl": "https://i.pinimg.com/474x/49/c0/bc/49c0bcd4e84b1f32afff9a48b7dbd7b3.jpg",
         "price": 15,
         "rating": 4.2
       },
       {
-        "productname": "Men's T-shirt 3",
+        "productname": "Men's upperwear 3",
         "imageurl": "https://i.pinimg.com/474x/7e/d4/95/7ed495880da71820c4d69dc08cc50243.jpg",
         "price": 30,
         "rating": 4.9
       },
       {
-        "productname": "Men's T-Shirt 4",
+        "productname": "Men's upperwear 4",
         "imageurl": "https://i.pinimg.com/474x/ec/7e/03/ec7e03f6952fa6e9019d4a428a136b91.jpg",
         "price": 39.95,
         "rating": 4.7
       },
       {
-        "productname": "Men's Shirt 1",
+        "productname": "Men's upperwear 5",
         "imageurl": "https://i.pinimg.com/474x/15/af/da/15afdad6f129c77064f411bb95cf1f99.jpg",
         "price": 10,
         "rating": 4.7
       },
       {
-        "productname": "Men's Shirt 2",
+        "productname": "Men's upperwear 6",
         "imageurl": "https://i.pinimg.com/474x/7e/f6/60/7ef6606853ae01bc735ab6e74d254830.jpg",
         "price": 27,
         "rating": 3.1
       },
       {
-        "productname": "Men's Shirt 3",
+        "productname": "Men's upperwear 7",
         "imageurl": "https://i.pinimg.com/736x/42/fa/fd/42fafd6d1e4779f49d6a796f514889aa.jpg",
         "price": 28,
         "rating": 3.5
       },
       {
-        "productname": "Men's Shirt 4",
-        "imageurl": "https://i.pinimg.com/474x/f6/f6/a3/f6f6a365cb0bf52fd08dccc4305264c3.jpg",
-        "price": 25.55,
-        "rating": 3.8
-      }
+        "productname": "Men'supperwear 8",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 1",
+        "imageurl": "https://i.pinimg.com/236x/f1/23/d5/f123d55350b3f5cc8abb1c8a0bb16e30.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 2",
+        "imageurl": "https://i.pinimg.com/236x/e2/77/83/e2778366d5c9995a4597d18c1c33a479.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 3",
+        "imageurl": "https://i.pinimg.com/236x/a9/cb/62/a9cb629562f21fe1fc52d40dcb01e2fe.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 4",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 5",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 6",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 7",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "Men's bottomwear 8",
+        "imageurl": "https://i.pinimg.com/474x/b8/83/24/b883249b4a6076968021d90f5eec1c53.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+     
+      {
+        "productname": "sale 1",
+        "imageurl": "https://i.pinimg.com/736x/99/c1/b1/99c1b1293f27c20965cee021835fa7ac.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 2",
+        "imageurl": "https://i.pinimg.com/236x/0c/c2/45/0cc24553264b136a52c04c5282753929.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 3",
+        "imageurl": "https://i.pinimg.com/236x/45/ec/bb/45ecbb969263de32748c5d50fc9bc4f0.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 4",
+        "imageurl": "https://i.pinimg.com/236x/19/bf/85/19bf85cab478eb8bd5e81614ee2aef38.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 5",
+        "imageurl": "https://i.pinimg.com/236x/fe/f7/29/fef7294ace979ea2c814f1950f8ee135.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 6",
+        "imageurl": "https://i.pinimg.com/236x/2d/35/47/2d35473bfbc51517a4fa546be9e117a7.jpg",
+        "price": 20,
+        "rating": 4.5
+      } 
+     
     ]
   },
   "Women": {
     "products": [
       {
-        "productname": "Women's Dress",
-        "imageurl": "https://example.com/womens-dress.jpg",
-        "price": 59.99,
+        "productname": "women upperwear 1",
+        "imageurl": "https://i.pinimg.com/236x/ca/b4/6f/cab46fea31313e086b3ba8e642c8d85c.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women upperwear 2",
+        "imageurl": "https://i.pinimg.com/474x/a8/67/a4/a867a425c07f2b4591b9dcf5fbd2b6f7.jpg",
+        "price": 15,
+        "rating": 4.2
+      },
+      {
+        "productname": "women upperwear 3",
+        "imageurl": "https://i.pinimg.com/236x/fe/ec/df/feecdfb2aa6c5226291a41cf21640cd9.jpg",
+        "price": 30,
+        "rating": 4.9
+      },
+      {
+        "productname": "women upperwear 4",
+        "imageurl": "https://i.pinimg.com/474x/c8/b3/c0/c8b3c014f0ee962841fe1eddf754abf3.jpg",
+        "price": 39.95,
         "rating": 4.7
       },
       {
-        "productname": "Women's Sandals",
-        "imageurl": "https://example.com/womens-sandals.jpg",
-        "price": 29.95,
-        "rating": 4.4
+        "productname": "women upperwear 5",
+        "imageurl": "https://i.pinimg.com/236x/68/26/2b/68262bcc6f0d68e7324fe31023f5f301.jpg",
+        "price": 10,
+        "rating": 4.7
       },
       {
-        "productname": "Women's Handbag",
-        "imageurl": "https://example.com/womens-handbag.jpg",
-        "price": 49.99,
-        "rating": 4.6
-      }
+        "productname": "women upperwear 6",
+        "imageurl": "https://i.pinimg.com/474x/0c/c7/2e/0cc72e091a27111f7eeeff5b4536c414.jpg",
+        "price": 27,
+        "rating": 3.1
+      },
+      {
+        "productname": "women upperwear 7",
+        "imageurl": "https://i.pinimg.com/736x/42/fa/fd/42fafd6d1e4779f49d6a796f514889aa.jpg",
+        "price": 28,
+        "rating": 3.5
+      },
+      {
+        "productname": "women upperwear 8",
+        "imageurl": "https://i.pinimg.com/474x/7d/0a/15/7d0a15fab807b3c7cffed18fae57c365.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 1",
+        "imageurl": "https://i.pinimg.com/236x/2b/59/ba/2b59bab70c3549e1b98ba02ce456d9c4.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 2",
+        "imageurl": "https://i.pinimg.com/236x/22/a9/40/22a94034f5ebcdecfdf0e4c7e81d09fd.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 3",
+        "imageurl": "https://i.pinimg.com/236x/35/c1/50/35c150779f9934cde850bf6bbf47091b.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 4",
+        "imageurl": "https://i.pinimg.com/474x/32/ff/fd/32fffd27d6c1603e3ef0647b94209ba8.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 5",
+        "imageurl": "https://i.pinimg.com/564x/16/dd/89/16dd8900d5d248fc5eebb07bada21396.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 6",
+        "imageurl": "https://i.pinimg.com/564x/37/54/cb/3754cb6d4dada50d5177984844282b68.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 7",
+        "imageurl": "https://i.pinimg.com/564x/8d/24/a3/8d24a3817ecff8714d28385b3fd8f4c8.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "women bottomwear 8",
+        "imageurl": "https://i.pinimg.com/564x/b2/89/f4/b289f4bbd8b6915a6d2505999998f888.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+     
+      {
+        "productname": "sale 1",
+        "imageurl": "https://i.pinimg.com/564x/78/91/86/789186135bfd1db73624c053d6855098.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 2",
+        "imageurl": "https://i.pinimg.com/564x/1b/73/57/1b73570cbf0cb27837aa8190ebcb7666.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 3",
+        "imageurl": "https://i.pinimg.com/564x/1b/b9/70/1bb970ce7d8e2cf79bb62861c7e82646.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 4",
+        "imageurl": "https://i.pinimg.com/564x/12/0c/e7/120ce7fb4390e8c2be21f97a6a6c0482.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 5",
+        "imageurl": "https://i.pinimg.com/564x/f5/f9/6e/f5f96e444e83d8515512fd083a6f09f7.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 6",
+        "imageurl": "https://i.pinimg.com/564x/80/0f/92/800f9234b35903b14f391bc496b9c7cb.jpg",
+        "price": 20,
+        "rating": 4.5
+      } 
     ]
   },
   "Kids": {
     "products": [
       {
-        "productname": "Kids' T-Shirt",
-        "imageurl": "https://example.com/kids-tshirt.jpg",
-        "price": 14.99,
-        "rating": 4.6
-      },
-      {
-        "productname": "Kids' Sneakers",
-        "imageurl": "https://example.com/kids-sneakers.jpg",
-        "price": 29.95,
+        "productname": "kids upperwear 1",
+        "imageurl": "https://i.pinimg.com/236x/25/3b/a8/253ba8dc46ee6a35f4e6576e31e944b5.jpg",
+        "price": 20,
         "rating": 4.5
       },
       {
-        "productname": "Kids' Backpack",
-        "imageurl": "https://example.com/kids-backpack.jpg",
-        "price": 19.99,
-        "rating": 4.3
+        "productname": "kids upperwear 2",
+        "imageurl": "https://i.pinimg.com/236x/af/b5/d1/afb5d1067c7ff9a1cdf744f86b3a2470.jpg",
+        "price": 15,
+        "rating": 4.2
+      },
+      {
+        "productname": "kids upperwear 3",
+        "imageurl": "https://i.pinimg.com/474x/30/21/6b/30216b0ac49ab512529b11246c068547.jpg",
+        "price": 30,
+        "rating": 4.9
+      },
+      {
+        "productname": "kids upperwear 4",
+        "imageurl": "https://i.pinimg.com/474x/59/77/45/59774518bf201b2c8e6d66e41879e27a.jpg",
+        "price": 39.95,
+        "rating": 4.7
+      },
+      {
+        "productname": "kids upperwear 5",
+        "imageurl": "https://i.pinimg.com/474x/18/48/7d/18487d6f5267a8272788678787052a80.jpg",
+        "price": 10,
+        "rating": 4.7
+      },
+      {
+        "productname": "kids upperwear 6",
+        "imageurl": "https://i.pinimg.com/474x/12/dd/3c/12dd3c98ae6aadbf991e08553c93244a.jpg",
+        "price": 27,
+        "rating": 3.1
+      },
+      {
+        "productname": "kids upperwear 7",
+        "imageurl": "https://i.pinimg.com/474x/68/41/2f/68412f611f709e99824decb6e08e2953.jpg",
+        "price": 28,
+        "rating": 3.5
+      },
+      {
+        "productname": "kids upperwear 8",
+        "imageurl": "https://i.pinimg.com/474x/af/b5/d1/afb5d1067c7ff9a1cdf744f86b3a2470.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 1",
+        "imageurl": "https://i.pinimg.com/474x/cd/07/cd/cd07cdfdb62b57afb2784560dd98efa0.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 2",
+        "imageurl": "https://i.pinimg.com/474x/58/5f/11/585f11147570a94a15bce9680a0595e6.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 3",
+        "imageurl": "https://i.pinimg.com/474x/58/70/db/5870db5350a95a4e7be740b2abfcbdeb.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 4",
+        "imageurl": "https://i.pinimg.com/474x/ad/c6/51/adc65150402ee44c1f7f40072fdfd8b7.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 5",
+        "imageurl": "https://i.pinimg.com/474x/98/26/8c/98268c6b3b313f8d38789f5f0fc8e949.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 6",
+        "imageurl": "https://i.pinimg.com/474x/6a/0b/5e/6a0b5ea2ca7c540b4aed5cff7ba34c0a.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 7",
+        "imageurl": "https://i.pinimg.com/474x/8d/3d/ef/8d3def8ae3f82fb0eadcb4cacde097c5.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "kids bottomwear 8",
+        "imageurl": "https://i.pinimg.com/474x/49/ba/42/49ba4282f8bb796ddce4df395180124e.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+     
+      {
+        "productname": "sale 1",
+        "imageurl": "https://i.pinimg.com/236x/12/dd/3c/12dd3c98ae6aadbf991e08553c93244a.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 2",
+        "imageurl": "https://i.pinimg.com/236x/6f/17/7b/6f177b2bf64908b331275d5d860b13ba.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 3",
+        "imageurl": "https://i.pinimg.com/236x/d6/20/a0/d620a01da6a26baae98c9159055a10ed.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 4",
+        "imageurl": "https://i.pinimg.com/236x/8a/69/10/8a6910cfb01c2f59a3ee897f31c889fd.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 5",
+        "imageurl": "https://i.pinimg.com/236x/bd/91/f5/bd91f503ce9ae7272d164cfa75c7a985.jpg",
+        "price": 20,
+        "rating": 4.5
+      },
+      {
+        "productname": "sale 6",
+        "imageurl": "https://i.pinimg.com/236x/94/08/de/9408def21159e59615cd1af93572b8a3.jpg",
+        "price": 20,
+        "rating": 4.5
       }
     ]
   },
