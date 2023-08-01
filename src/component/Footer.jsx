@@ -127,7 +127,7 @@ const Footer = () => {
                 </ul>
                 </div>
             <div className="footer-col">
-              <h4>follow us</h4>
+              <h4>Follow us</h4>
               <div className="social-links">
                 <Link to="/">
                   <AiOutlineInstagram />

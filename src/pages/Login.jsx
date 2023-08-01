@@ -25,7 +25,7 @@ const Login = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:3002/users');
+      const response = await fetch('http://localhost:5000/users');
       const users = await response.json();
 
       const validUser = users.find(

@@ -3,17 +3,15 @@ import styled from 'styled-components';
 import ProductCard from '../component/ProductCard';
 
 const MainWrapper = styled.div`
+  padding: 0 20px; /* Add left-right padding */
   text-align: center; /* Center the content */
-  margin: 0 auto;
 `;
 
 const ProductListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  border:2px solid black;
-  width:90%;
-
+  padding: 20px;
   margin: 0 auto;
   
 `;
@@ -23,8 +21,8 @@ const Men = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    // Fetch data from the API endpoint (http://localhost:3001/Mens)
-    fetch('http://localhost:3001/Mens')
+    // Fetch data from the API endpoint (http://localhost:5000/Mens)
+    fetch('http://localhost:5000/Mens')
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data.products)) {

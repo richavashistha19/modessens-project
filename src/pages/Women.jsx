@@ -65,7 +65,7 @@ const Women = () => {
 
   useEffect(() => {
     
-    fetch('http://localhost:3001/Women')
+    fetch('http://localhost:5000/Women')
       .then((response) => response.json())
       .then((data) => {
         

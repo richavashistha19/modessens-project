@@ -20,13 +20,10 @@ const Container = styled.div`
   }
 `;
 
-const NavbarLink = styled.span`
-a{
+const NavbarLink = styled.a`
   text-decoration: none;
   color: white;
-}
   margin-left: 20px;
-
 
   &:hover {
     color: #ccc;
@@ -83,12 +80,11 @@ const Nav = ({ cartItemCount }) => {
 
   return (
     <Container>
-      <h2>MODESSENS</h2>
+      <h2>My Website</h2>
       <NavItems>
-        
-        <NavbarLink><span><Link to='/mens'>MEN's</Link></span></NavbarLink>
-        <NavbarLink><Link to='/women'>WOMENn</Link></NavbarLink>
-        <NavbarLink><Link to='/kids'>KIDS</Link></NavbarLink>
+        <NavbarLink><Link to='/mens'>Mens</Link></NavbarLink>
+        <NavbarLink><Link to='/women'>Women</Link></NavbarLink>
+        <NavbarLink><Link to='/kids'>Kids</Link></NavbarLink>
       </NavItems>
       <NavIcons>
         <NavbarLink><Link to='/'><AiOutlineHome size={30} /></Link></NavbarLink>

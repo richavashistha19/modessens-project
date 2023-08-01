@@ -65,7 +65,7 @@ const Kids = () => {
 
   useEffect(() => {
     
-    fetch('http://localhost:3001/Kids')
+    fetch('http://localhost:5000/Kids')
       .then((response) => response.json())
       .then((data) => {
         

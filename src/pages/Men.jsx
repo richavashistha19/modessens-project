@@ -67,7 +67,7 @@ const Men = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/Mens')
+    fetch('http://localhost:5000/Mens')
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data.products)) {
