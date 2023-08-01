@@ -20,10 +20,13 @@ const Container = styled.div`
   }
 `;
 
-const NavbarLink = styled.a`
+const NavbarLink = styled.span`
+a{
   text-decoration: none;
   color: white;
+}
   margin-left: 20px;
+
 
   &:hover {
     color: #ccc;
@@ -33,7 +36,6 @@ const NavbarLink = styled.a`
 const NavItems = styled.div`
   display: flex;
   align-items: center;
-  color:white;
 
   @media (max-width: 768px) {
     margin-top: 10px;
@@ -83,9 +85,10 @@ const Nav = ({ cartItemCount }) => {
     <Container>
       <h2>MODESSENS</h2>
       <NavItems>
-        <NavbarLink><Link to='/mens'>Mens</Link></NavbarLink>
-        <NavbarLink><Link to='/women'>Women</Link></NavbarLink>
-        <NavbarLink><Link to='/kids'>Kids</Link></NavbarLink>
+        
+        <NavbarLink><span><Link to='/mens'>MEN's</Link></span></NavbarLink>
+        <NavbarLink><Link to='/women'>WOMENn</Link></NavbarLink>
+        <NavbarLink><Link to='/kids'>KIDS</Link></NavbarLink>
       </NavItems>
       <NavIcons>
         <NavbarLink><Link to='/'><AiOutlineHome size={30} /></Link></NavbarLink>

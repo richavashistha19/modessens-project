@@ -3,15 +3,17 @@ import styled from 'styled-components';
 import ProductCard from '../component/ProductCard';
 
 const MainWrapper = styled.div`
-  padding: 0 20px; /* Add left-right padding */
   text-align: center; /* Center the content */
+  margin: 0 auto;
 `;
 
 const ProductListContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  border:2px solid black;
+  width:90%;
+
   margin: 0 auto;
   
 `;
