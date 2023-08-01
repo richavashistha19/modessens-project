@@ -10,7 +10,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
@@ -33,28 +33,23 @@ To set up the project locally, follow these steps:
 git clone https://github.com/richavashistha19/modessens-project.git
 
 css
-Copy code
 
 2. Navigate to the project directory:
 
 cd modessens-project
 
 markdown
-Copy code
 
 3. Install the required dependencies:
 
 npm install
 
 markdown
-Copy code
 
 4. Start the development server:
 
 npm start
 
-csharp
-Copy code
 
 5. Open your web browser and visit `http://localhost:3000` to see the application.
 
@@ -66,10 +61,4 @@ Copy code
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvement, please feel free to open a new issue or submit a pull request.
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
-## Credits
-
-[List any individuals or resources you want to acknowledge or credit for their c
