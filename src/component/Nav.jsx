@@ -33,6 +33,7 @@ const NavbarLink = styled.a`
 const NavItems = styled.div`
   display: flex;
   align-items: center;
+  color:white;
 
   @media (max-width: 768px) {
     margin-top: 10px;
@@ -80,7 +81,7 @@ const Nav = ({ cartItemCount }) => {
 
   return (
     <Container>
-      <h2>My Website</h2>
+      <h2>MODESSENS</h2>
       <NavItems>
         <NavbarLink><Link to='/mens'>Mens</Link></NavbarLink>
         <NavbarLink><Link to='/women'>Women</Link></NavbarLink>
