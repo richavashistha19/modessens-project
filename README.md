@@ -10,8 +10,7 @@ Please note that this is an ongoing project, and we are actively working on addi
 
 \
 **Stay tuned for updates and happy shopping! 🛍️**
-
-## Technology Used:
+## ⚙️Technology Used:
 
 **Visual Studio Code:**\
 A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.
@@ -25,6 +24,21 @@ A source code editor developed by Microsoft for Windows, Linux and macOS. It inc
 - ReactJS (.jsx files)
 
 **Server:** 
+- JSON Server
+## 📸Screenshorts
+
+- *Home Page*
+![0](image/0000.png)
+- *Men Page*
+![1](image/0001.png)
+- *Women Page*
+![2](image/0002.png)
+- *Kids Page*
+![3](image/0003.png)
+- *Signup Page* 
+![4](image/0004.png)
+- *Card Page*
+![5](image/0005.png)
 ## 📝Like what you see?
 
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations.\
@@ -75,10 +89,23 @@ You'll see something like this:
 
 ```
 
-## Installation:
+## ⚙️Installation:
 
 To set up the project locally, follow these steps:
+- Clone the repository:
+```git clone: https://github.com/richavashistha19/modessens-project.git```
 
+
+- Navigate to the project directory:
+```cd modessens-project```
+
+- Install the required dependencies:
+```npm install```
+
+- Start the development server:
+```npm start```
+
+- Open your web browser and visit ```http://localhost:3000``` to see the application.
 ## 🚀About Us!
 
 Hello Everyone...
@@ -87,7 +114,7 @@ Welcome to Dev Dynasty, a talented team of aspiring developers passionate about 
 
 \
 **👥TEAM MEMBERS:**
-- Shubhranshu Das - @shubh   
+- Shubhranshu Das - @shubhranshudas
 - Richa Kumari - @richavashistha19
 - Khushi Vats - @KhushiVats25
 - Anwesh Kumar Pani - @Anweshh
