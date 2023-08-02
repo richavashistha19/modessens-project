@@ -10,9 +10,7 @@ Please note that this is an ongoing project, and we are actively working on addi
 
 \
 **Stay tuned for updates and happy shopping! 🛍️**
-## Table of Content
 
-#TitleandDescription
 ## Technology Used:
 
 **Visual Studio Code:**\
@@ -89,7 +87,7 @@ Welcome to Dev Dynasty, a talented team of aspiring developers passionate about 
 
 \
 **👥TEAM MEMBERS:**
-- Shubhranshu Das - @shubhranshudas
+- Shubhranshu Das - @shubh   
 - Richa Kumari - @richavashistha19
 - Khushi Vats - @KhushiVats25
 - Anwesh Kumar Pani - @Anweshh
