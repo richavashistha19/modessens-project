@@ -79,6 +79,14 @@ You'll see something like this:
 
 To set up the project locally, follow these steps:
 
+## Screenshorts:
+![0](image/0000.png)
+![1](image/0001.png)
+![2](image/0002.png)
+![3](image/0003.png)
+![4](image/0004.png)
+![5](image/0005.png)
+
 ## 🚀About Us!
 
 Hello Everyone...
@@ -87,7 +95,7 @@ Welcome to Dev Dynasty, a talented team of aspiring developers passionate about 
 
 \
 **👥TEAM MEMBERS:**
-- Shubhranshu Das - @shubh   
+- Shubhranshu Das - @shubh  
 - Richa Kumari - @richavashistha19
 - Khushi Vats - @KhushiVats25
 - Anwesh Kumar Pani - @Anweshh
