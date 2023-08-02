@@ -27,18 +27,30 @@ A source code editor developed by Microsoft for Windows, Linux and macOS. It inc
 - JSON Server
 ## 📸Screenshorts
 
-- *Home Page*
-![0](image/0000.png)
-- *Men Page*
-![1](image/0001.png)
-- *Women Page*
-![2](image/0002.png)
-- *Kids Page*
-![3](image/0003.png)
-- *Signup Page* 
-![4](image/0004.png)
-- *Card Page*
-![5](image/0005.png)
+- **Home Page**
+- ![0000](https://github.com/richavashistha19/modessens-project/assets/138751663/5b9d31b4-d57c-4388-86b2-5ed0c6ddb921)
+
+\
+- **Men Page**
+- ![0001](https://github.com/richavashistha19/modessens-project/assets/138751663/dbc524cc-666d-4f4c-a068-b74ff53c50e8)
+  
+\
+- **Women Page**
+- ![0001](https://github.com/richavashistha19/modessens-project/assets/138751663/7ca2a3b3-b6f3-44e5-9e36-49f510209b65)
+  
+\
+- **Kids Page**
+- ![0003](https://github.com/richavashistha19/modessens-project/assets/138751663/52abebf5-20a8-4c4a-87db-088f48d976bb)
+  
+\
+- **Signup Page**
+- ![0004](https://github.com/richavashistha19/modessens-project/assets/138751663/18321d23-63e5-46a3-8b0e-8d964c86ac45)
+  
+\
+- **Card Page**
+- ![0005](https://github.com/richavashistha19/modessens-project/assets/138751663/4a10dbbe-9ee6-4ad3-aecb-d63edc95c812)
+
+
 ## 📝Like what you see?
 
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations.\
